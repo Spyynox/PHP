@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+        <form action="checkThatForm.php" method="POST">
+        <p>
+                Prénom :<input type="text" name="Prénom" minlength="2" class="Prénom"><br>
+            </p>
+    
+            <p>
+                Nom :<input type="text" name="noms" class="noms"><br>
+            </p>
+    
+            <p>
+                E-mail :<input type="email" name="mail1" class="mail"><br>
+            </p>
+            
+            <p>
+                Age :<input type="age" name="Age" class="age" class="Age"><br>
+            </p>
+
+            <p>
+                Bachelor :<input type="text" name="Bachelor" minlength="2" class="Bachelor"><br>
+            </p>
+            
+            <p>
+                Mot de passe :<input type="password" name="password" class="password"><br>
+            </p>
+
+            <p>
+                Retapez le Mot de passe :<input type="password" name="repassword"  class="repassword"><br>
+            </p>
+
+            <p>
+                 <input type="radio" name="sex" value="Homme">Homme<br>
+                 <input type="radio" name="sex" value="Femme">Femme<br>
+            </p>
+
+            <p>
+                Quel est votre tome du voyageur galactique préféré?<br>
+                <input type="checkbox" name="tomes[]" class="Le Guide du voyageur galactique">Le Guide du voyageur galactique<br>
+                <input type="checkbox" name="tomes[]" class="Le Dernier Restaurant avant la Fin du Monde">Le Dernier Restaurant avant la Fin du Monde<br>
+                <input type="checkbox" name="tomes[]" class="La Vie, l'Univers et le Reste">La Vie, l'Univers et le Reste<br>
+                <input type="checkbox" name="tomes[]" class="Salut, et encore merci pour le poisson">Salut, et encore merci pour le poisson<br>
+                <input type="checkbox" name="tomes[]" class="Globalement inoffensive">Globalement inoffensive<br>
+            </p>
+
+            <p>
+                Un petit commentaire ?<br>
+                <textarea rows="5" cols="50" name="commentaire"><b>si ce texte s'affiche en gras, u lost the game</b></textarea><br>
+            </p>
+    
+            <p>
+            <input type="submit" name="submit" value="Inscription">
+            </p>
+
+
+
+
+        </form>
+</body>
+</html>
